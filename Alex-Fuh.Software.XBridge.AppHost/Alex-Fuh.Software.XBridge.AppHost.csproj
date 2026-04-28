@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.1">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>89eb438a-8e3e-42ff-82bc-a5a9ce76608c</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Alex-Fuh.Software.XBridge\Alex-Fuh.Software.XBridge.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Aspire.Hosting.AppHost" Version="13.2.4" />
+      <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.2.4" />
+    </ItemGroup>
+
+</Project>
